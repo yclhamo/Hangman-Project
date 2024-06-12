@@ -1,0 +1,110 @@
+body {
+    background-image: url('https://images2.alphacoders.com/678/678259.jpg');
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(153, 204, 255);
+  }
+  
+  .win {
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 245, 38);
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgba(147, 91, 18, 0.818);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(153, 202, 255);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(78, 157, 241);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+    #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(153, 255, 172);
+      font-weight: bold;
+      font-family: "Courier New", Courier, monospace;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(255, 255, 153);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .guess:hover {
+        background-color: orange;
+    }
+  }
+  
+  #guessBox {
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 18pt;
+    width: 200px;
+    padding-left: 10px;
+    color:beige;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #666;
+    background-color: linear-gradient(to right, lightblue, lightpink);
+    border: 10px outset rgb(192, 209, 255);
+    border-radius: 10px;
+    box-shadow: 0 9px #f776d942;
+  }
+  
+  .button:hover {
+    background-color: rgb(245, 13, 195);
+  }
+  
+  .button:active {
+    background-color: linear-gradient(to right, lightblue, lightpink);
+    box-shadow: 0 5px #f706e7;
+    transform: translateY(4px);
+  }
+  
